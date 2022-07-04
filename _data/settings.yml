@@ -2,20 +2,20 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo:
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+title: NeuroGEARS
+logo: /assets/images/neurogears.svg
+author: NeuroGEARS
+description: Neuroscience, Games, Interaction, Robotics
+email: contact@neurogears.org
+phone:
+location: NeuroGEARS Ltd is a limited company registered in England and Wales. <br/>31 Oval Road, London, NW1 7EA, United Kingdom <br/>Company Registration No. 10773335
+copyright: <span class="paragraph-copyright">© 2021 NeuroGEARS Ltd. <br/>Web design and development by Danbee Kim <br/>This website is built on the Kross jekyll Creative Portfolio Template (2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com))</span>
 
 menu:
-  - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
+  - { name: News, link: "/news" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  - { name: About Us, link: "/about" }
+#  - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -25,7 +25,7 @@ menu:
 
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
-google-analytics: # UA-XXXXXX-X
+google-analytics: UA-106624760-1
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -36,112 +36,76 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: <span class="h1black">neurogears</span> is a creative research <br> group bridging <span class="h1color">Neuroscience</span>, <br> <span class="h1color">Games</span>, <span class="h1color">Interaction</span> & <span class="h1color">Robotics</span>.
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/neurogears" }
+  - { icon: "ti-youtube", link: "#" }
+  - { icon: "ti-twitter", link: "https://twitter.com/neurogears" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: We engage with top research and academic institutions worldwide to reimagine science by using and creating open-source tools which are accessible, understandable and modifiable. Our core mission is to make scientific knowledge available to everyone, and to empower people to follow their curiosity, wherever it may lead.
 
 blurb-btn-link: "/about"
-blurb-btn-name: know more
+blurb-btn-name: learn more
 
 # About Page
 
 # Work Process Section
 work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Design"
+    icon: "assets/images/icons/v0_Design.svg"
+    content: "We first develop a solid understanding of what the experience should be for our collaborators and their audiences. Initial concepts are assessed through multi-modal brainstorming and visually impactful storyboards."
 
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Develop"
+    icon: "assets/images/icons/v0_Develop.svg"
+    content: "Next, we help our collaborators shape their long-term vision and identify short-term strategic objectives. A detailed assessment, including project milestones, budget, and key stakeholders, determines how these ideas can become reality."
 
   - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    icon: "assets/images/icons/v0_Deliver.svg"
+    content: "We collaboratively decide on a process for regularly releasing functional prototypes and tracking our progress towards goals. We want to keep our collaborators in the loop and get their feedback on an ongoing basis throughout the entire project, not just at milestone meetings."
 
-# My Team Section
+# Team Section
 team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
+  - title: "Gonçalo Lopes"
+    image: "assets/images/team/glopes.jpg"
+    designation: "Director"
+    bio: Gonçalo (he/him) is a software engineer turned neuroscientist, fascinated by the behaviour of intelligent systems. With a background of applied research in virtual and augmented reality, parallel processing and autonomous agents, he joined the Champalimaud Neuroscience Programme in 2010, hoping to find better ways of building machines that learn by themselves. Gonçalo completed his PhD with Adam Kampff and Joe Paton, trying to understand the role of motor cortex in the control of movement in non-primate mammals. <br/><br/>Along the way, he extended his experience for making interactive systems to rodents and other animal models. Gonçalo developed the Bonsai visual programming language as a way to rapidly prototype interactive neuroscience experiments.
 
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
+  - title: "Joana Nogueira"
+    image: "assets/images/team/missing-team-member-photo.png"
+    designation: "Executive Assistant"
+    bio: Missing Bio!
 
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
+  - title: "André Almeida"
+    image: "assets/images/team/aalmeida.jpg"
+    designation: "Senior Software Engineer"
+    bio: André (he/him) is a software engineer that specialized in Arts and Technology using Mixed Reality, Multimedia, Robotics, Physical Computing and Interactive Systems. Is fascinated by technological creativity. Back in 2004 started working in Ylabs research division of YDreams then became an expert in the creation of interactive systems and Augmented Reality. In 2011 he created Artica Creative Computing. Artica works on Human Computer Interaction, Electronics, Game Design, Creative Design AR & VR, Video Projection & Mapping, Physical Computing, Robotics, Digital Fabrication, Prototyping, Education and all things creative. <br/><br/>André likes human relationships involving everyone in agile development cycles and working together to a working, professional and affordable solution under realistic development timelines.
 
-#-------------------------------
-# Skills Section
+  - title: "Danbee Kim"
+    image: "assets/images/team/dkim.jpg"
+    designation: "Research and Outreach Scientist"
+    bio: Dr. Danbee “Tauntaun” Kim (she/her/they/them) is a Korean-American neuroscientist and teacher who earned her BSc in Brain and Cognitive Sciences from MIT, where they also spent 10 years acting, directing, choreographing, costuming, and writing original content for the MIT Musical Theater Guild. While completing her PhD with Adam Kampff at the Champalimaud Neuroscience Program, Danbee authored of a graphic novel version of their doctoral dissertation called <i>The First VIRS</i>. <br/><br/>Danbee’s current focus is developing a framework for precisely observing nervous systems in ecologically relevant settings, aka “field neuroscience”. This includes studying cuttlefish, building interactive exhibits, and using comics and circus as a tool for education and research. To learn more, you can visit <a href="http://www.danbeekim.org/">www.danbeekim.org</a>.
 
-skills-title: Skills
-skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - title: "Bruno Cruz"
+    image: "assets/images/team/bcruz.png"
+    designation: "Software Engineer"
+    bio: Bruno (he/him) is a neuroscientist who enjoys tinkering and engineering. As an undergrad, he studied Biochemistry and Molecular & Cellular Neuroscience. Not satisfied with the gap between molecular neuroscience and animal behavior, he moved to Lisbon to pursue a PhD in Systems Neuroscience with Joe Paton. There he studied the role of basal ganglia circuits in the production and suppression of action, and gained experience with animal behavior experiments, neurophysiological recordings, optogenetics, and data analysis. <br/><br/>While completing his PhD, Bruno also developed an interest for teaching and quick-paced prototyping of experiments. He hopes to put such skills to good use while finding new challenges at NeuroGEARS.
 
-#-------------------------------
-# Exprerience Section
+  - title: "Filipe Carvalho"
+    image: "assets/images/team/missing-team-member-photo.png"
+    designation: "Hardware Engineer"
+    bio: Missing Bio!
 
-experience-title: Experience
-experience:
-  - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
-    }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
-    }
+  - title: "Andrew Erskine"
+    image: "assets/images/team/aerskine.png"
+    designation: "Senior Software Engineer"
+    bio: Andrew (he/him) is a neuroscientist and software engineer passionate about advancing technologies for research, data science and games. As a PhD student at the Francis Crick Institute he worked on olfactory behaviour in mice, developing the AutonoMouse system for automated, high-throughput behavioural experiments. In his postdoc at the University of Southern California he studied somatosensory processing using head-fixed behaviour, 2-photon imaging, 3D holographic optogenetic stimulation and machine-learning approaches to understand information transfer between cortical layers. <br/><br/>During his research career Andrew has also worked on a wide range of software projects spanning topics such as game AI, multiplayer network architecture and cloud-based solutions for large-scale data analysis.
 
-#-------------------------------
-# Education Section
-
-education-title: Education
-education:
-  - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
-    }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
-    }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
+# Collaborators Section
 
 #-------------------------------
 # Services Section
@@ -149,22 +113,28 @@ education:
 services-title: Services
 services:
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Open Source Research <br/>and Development,
+      icon: "assets/images/icons/v0_OpenSource.svg",
+      description: "NeuroGEARS employs the core team behind the open source reactive visual programming language <a href='https://bonsai-rx.org/'>Bonsai</a>, which now powers thousands of experiments around the world. Bonsai is at the centre of a vibrant and growing ecosystem of hardware and software projects in Neuroscience, including Open-Ephys, DeepLabCut, Miniscope, Harp, and Neurophotometrics. ",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      name: Integrated Technology Solutions,
+      icon: "assets/images/icons/v0_Integrative.svg",
+      description: "Thanks to Bonsai, the open-source visual programming language at the heart of NeuroGEARS, we can offer our services as software and hardware integrators. Our expertise can make it easier to build interactive systems that incorporate a wide range of components that might otherwise be very challenging or impossible to integrate.",
+      active: true, # Add true to select section
+    }
+  - {
+      name: Interdisciplinary Research <br/>and Outreach,
+      icon: "assets/images/icons/v0_Outreach.svg",
+      description: "NeuroGEARS brings together experts in building virtual and augmented reality systems, interactive installations, autonomous robots, performing arts, and neuroscience research. Our current mission focuses on sustainably funding collaborations that explore methods for field neuroscience with academics, professional artists, and activist communities.",
+      active: true, # Add true to select section
+    }
+  - {
+      name: Re-imagining Education,
+      icon: "assets/images/icons/v0_Education.svg",
+      description: "At NeuroGEARS, we strive to sustain a network of lifelong learners and optimistic activists passionate about improving the way we teach, grow, and create. To this end, we can offer our services as curriculum developers and teachers with expertise in delivering neuroscience topics through formats that centre a 'hands-on minds-on' approach, collaborative storytelling, whole-body engagement, and age-inclusive classrooms.",
+      active: true, # Add true to select section
     }
 
 #-------------------------------
@@ -172,132 +142,68 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/neuro-vr.jpg"
+    url: "https://youtu.be/mJDV07ptQFk"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/emergence-ar.jpg"
+    url: "https://youtu.be/7ohPpPDZhRc"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/ponto-txt.jpg"
+    url: "https://youtu.be/jKB0d9vsfgA"
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/portfolio/project-navi.jpg"
     url: "#"
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "RESEARCH", type: "research" }
+  - { title: "OUTREACH", type: "outreach" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/neuro-vr.jpg"
+    url: "https://youtu.be/mJDV07ptQFk"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "research"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/emergence-ar.jpg"
+    url: "https://youtu.be/7ohPpPDZhRc"
     portfolio-type:
-      - type: "branding"
+      - type: "outreach"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/ponto-txt.jpg"
+    url: "https://youtu.be/jKB0d9vsfgA"
     portfolio-type:
-      - type: "illustration"
+      - type: "outreach"
 
-  - image: "assets/images/portfolio/item-6.png"
+  - image: "assets/images/portfolio/project-navi.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "research"
 
 #-------------------------------
-# Testimonials Section
+# Collaborator Slider Section
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+collaborator-slider-items:
+  - logo: "assets/images/collaborators-logo/pca.svg"
+    url: "https://www.plataforma.edu.pt/"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - logo: "assets/images/collaborators-logo/SWClogo.png"
+    url: "https://www.sainsburywellcome.org/web/"
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - logo: "assets/images/collaborators-logo/logo_background-horiz_blue.png"
+    url: "https://emotionalcities-h2020.eu/"
 
-#-------------------------------
-# Client Slider Section
+  - logo: "assets/images/collaborators-logo/pca.svg"
+    url: "https://www.plataforma.edu.pt/"
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
+  - logo: "assets/images/collaborators-logo/SWClogo.png"
+    url: "https://www.sainsburywellcome.org/web/"
 
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
+  - logo: "assets/images/collaborators-logo/logo_background-horiz_blue.png"
+    url: "https://emotionalcities-h2020.eu/"
 
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-title: Contact
+contact-email: contact@neurogears.org

@@ -1,0 +1,28 @@
+---
+layout: page
+title: News
+---
+<!-- news -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      {% include post.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /news -->
+
+<!-- collaborators -->
+<section class="section bg-transparent">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Our Collaborators</h2>
+      </div>
+    </div>
+    {% include collaborator-slider.html %}
+  </div>
+</section>
+<!-- /collaborators -->

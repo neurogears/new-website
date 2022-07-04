@@ -20,13 +20,15 @@
       font-family: $secondary-font;
       text-transform: uppercase;
       padding: 15px;
+      color: $black;
     }
     &.active{
       font-weight: bold;
+      color: $text-color-dark;
     }
   }
 }
 
 .navbar-dark .navbar-nav .nav-link{
-  color: $white;
+  color: $black;
 }
