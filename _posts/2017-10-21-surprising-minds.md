@@ -16,6 +16,8 @@ All the installation displays, data acquisition, and interactive systems are con
 
 The exhibit is located next to the cuttlefish display tank in the main arcade of Sea Life Brighton. More information about the neuroscience research behind the Surprising Minds project can be found at the [EveryMind](http://www.everymind.online/) website. 
 
+Surprising Minds is part of the doctoral work of Danbee Kim, who now works at NeuroGEARS as "Research Scientist, Outreach". 
+
 Photos by Danbee Kim. 
 
 <div class="gallery">
