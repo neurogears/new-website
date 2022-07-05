@@ -142,6 +142,9 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
+  - image: "assets/images/portfolio/surprising-minds.jpg"
+    url: "http://www.everymind.online/SurprisingMinds/"
+
   - image: "assets/images/portfolio/neuro-vr.jpg"
     url: "https://youtu.be/mJDV07ptQFk"
 
@@ -160,6 +163,11 @@ portfolio-label:
   - { title: "OUTREACH", type: "outreach" }
 
 portfolio-items:
+  - image: "assets/images/portfolio/surprising-minds.jpg"
+    url: "http://www.everymind.online/SurprisingMinds/"
+    portfolio-type:
+      - type: "outreach"
+
   - image: "assets/images/portfolio/neuro-vr.jpg"
     url: "https://youtu.be/mJDV07ptQFk"
     portfolio-type:
