@@ -1,6 +1,9 @@
 {% if site.data.settings.team %}
 <!-- team -->
-<section class="section bg-cover" data-background="{{ site.baseurl }}/assets/images/backgrounds/team-bg.png">
+<section
+  class="section bg-cover"
+  data-background="{{ site.baseurl }}/assets/images/backgrounds/team-bg.png"
+>
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -9,11 +12,16 @@
       {% for team-member in site.data.settings.team %}
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <div class="card bio text-center">
-          <img src="{{ team-member.image | relative_url }}" class="card-img-top">
+          <img
+            src="{{ team-member.image | relative_url }}"
+            class="card-img-top"
+          />
           <p>{{ team-member.bio }}</p>
           <div class="card-body">
             <h4 class="card-title">{{ team-member.title }}</h4>
-            <p class="text-light font-secondary">{{ team-member.designation }}</p>
+            <p class="text-light font-secondary">
+              {{ team-member.designation }}
+            </p>
           </div>
         </div>
       </div>

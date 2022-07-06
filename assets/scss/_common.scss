@@ -300,4 +300,39 @@ textarea.form-control {
     margin-left: 20px;
     margin-right: 20px;
   }
+  @media all and (max-device-width: 720px) {
+    p {
+      font-size: 20px;
+    }
+  }
+
+  @media all and (max-device-width: 640px) {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-device-width: 560px) {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media all and (max-device-width: 450px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media all and (max-device-width: 380px) {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  @media all and (max-device-width: 280px) {
+    p {
+      font-size: 10px;
+    }
+  }
 }
