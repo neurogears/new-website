@@ -7,7 +7,7 @@ published: true
 image: /assets/images/news/UCL-Birkbeck-MRC-DTP.png
 excerpt: A research collaboration with UCL Queen Square Institute of Neurology and UCL Here East BodyLAB. 
 author: Danbee Kim
-tags: research, Woods Hole, field neuroscience
+tags: research, UCL, extended reality, field neuroscience
 ---
 
 A new collaboration between NeuroGEARS, UCL Queen Square Institute of Neurology, and UCL Here East BodyLAB successfully applied for funding from the UCL-Birkbeck MRC Doctoral Training Program. 
