@@ -4,7 +4,7 @@ body {
 }
 
 ::selection {
-  background: lighten($color: $text-color-dark, $amount: 10);
+  background: lighten($color: $text-color-alt, $amount: 10);
   color: $black;
 }
 
@@ -53,12 +53,12 @@ select {
 
 a.text-dark {
   &:hover {
-    color: $text-color-dark !important;
+    color: $text-color-alt !important;
   }
 }
 
 a:hover {
-  color: $text-color-dark;
+  color: $text-color-alt;
 }
 
 .slick-slide {

@@ -46,6 +46,10 @@ h1, .h1black {
   color: $text-color-dark;
 }
 
+h1, .h1alt {
+  color: $text-color-alt;
+}
+
 h2, .h2{
   font-size: 50px;
   @include desktop {
@@ -55,7 +59,7 @@ h2, .h2{
 
 h2, .h2subtitle {
   font-size: 28;
-  color: $text-color;
+  color: $text-color-alt;
 }
 
 h3, .h3{

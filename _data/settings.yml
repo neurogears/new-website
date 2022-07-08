@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: <span class="h1black">neurogears</span> is a creative research <br> group bridging <span class="h1color">Neuroscience</span>, <br> <span class="h1color">Games</span>, <span class="h1color">Interaction</span> & <span class="h1color">Robotics</span>.
+  hero-title: <span class="h1alt">NeuroGEARS</span> is a creative <br>research group bridging <span class="h1color">Neuroscience</span>, <span class="h1color">Games</span>, <br><span class="h1color">Interaction</span> & <span class="h1color">Robotics</span>.
 
 social:
   - { icon: "ti-github", link: "https://github.com/neurogears" }
