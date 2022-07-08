@@ -127,7 +127,7 @@ services:
   - {
       name: Interdisciplinary Research <br/>and Outreach,
       icon: "assets/images/icons/v0_Outreach.svg",
-      description: "NeuroGEARS brings together experts in building virtual and augmented reality systems, interactive installations, autonomous robots, performing arts, and neuroscience research. Our current mission focuses on sustainably funding collaborations that explore methods for field neuroscience with academics, professional artists, and activist communities.",
+      description: "NeuroGEARS brings together experts in building virtual and augmented reality systems, interactive installations, autonomous robots, performing arts, and neuroscience research. Our current mission focuses on sustainably funding collaborations that explore methods for field neuroscience with academics, professional artists, and community organisers.",
       active: true, # Add true to select section
     }
   - {
@@ -192,6 +192,9 @@ portfolio-items:
 # Collaborator Slider Section
 
 collaborator-slider-items:
+  - logo: "assets/images/collaborators-logo/bonsai-rx.png"
+    url: "https://bonsai-rx.org/"
+
   - logo: "assets/images/collaborators-logo/pca.svg"
     url: "https://www.plataforma.edu.pt/"
 
@@ -207,8 +210,8 @@ collaborator-slider-items:
   - logo: "assets/images/collaborators-logo/Champalimaud.png"
     url: "https://www.fchampalimaud.org/champalimaud-foundation/champalimaud-centre"
 
-  - logo: "assets/images/collaborators-logo/logo_background-horiz_blue.png"
-    url: "https://emotionalcities-h2020.eu/"
+  - logo: "assets/images/collaborators-logo/bonvision-logo.png"
+    url: "https://bonvision.github.io/"
 
 #-------------------------------
 # Contact Section
