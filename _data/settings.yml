@@ -195,23 +195,23 @@ collaborator-slider-items:
   - logo: "assets/images/collaborators-logo/bonsai-rx.png"
     url: "https://bonsai-rx.org/"
 
-  - logo: "assets/images/collaborators-logo/pca.png"
-    url: "https://www.plataforma.edu.pt/"
-
   - logo: "assets/images/collaborators-logo/SWClogo.png"
     url: "https://www.sainsburywellcome.org/web/"
 
   - logo: "assets/images/collaborators-logo/logo_background-horiz_blue.png"
     url: "https://emotionalcities-h2020.eu/"
 
-  - logo: "assets/images/collaborators-logo/UCL-Birkbeck-MRC-DTP.png"
-    url: "https://www.uclbbk-mrcdtp.ac.uk/icase/extended-reality-enhanced-upper-limb-recovery-after-stroke"
-
   - logo: "assets/images/collaborators-logo/Champalimaud.png"
     url: "https://www.fchampalimaud.org/champalimaud-foundation/champalimaud-centre"
 
   - logo: "assets/images/collaborators-logo/bonvision-logo.png"
     url: "https://bonvision.github.io/"
+
+  - logo: "assets/images/collaborators-logo/UCL-Birkbeck-MRC-DTP.png"
+    url: "https://www.uclbbk-mrcdtp.ac.uk/icase/extended-reality-enhanced-upper-limb-recovery-after-stroke"
+
+  - logo: "assets/images/collaborators-logo/pca.png"
+    url: "https://www.plataforma.edu.pt/"
 
 #-------------------------------
 # Contact Section
