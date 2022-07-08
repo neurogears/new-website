@@ -4,7 +4,7 @@ title: "UCL-Birkbeck MRC Doctoral Training Program"
 date: 2022-03-29 12:00:00 -0000
 categories: news
 published: true
-image: /assets/images/news/UCL-Birkbeck-MRC-DTP.svg
+image: /assets/images/news/UCL-Birkbeck-MRC-DTP.png
 excerpt: A research collaboration with UCL Queen Square Institute of Neurology and UCL Here East BodyLAB. 
 author: Danbee Kim
 tags: research, Woods Hole, field neuroscience
