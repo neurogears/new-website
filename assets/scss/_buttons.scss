@@ -40,12 +40,12 @@
   }
 
   &:hover {
-    background: lighten($color: $text-color, $amount: 10);
+    background: lighten($color: $text-color-alt, $amount: 10);
   }
 
   &.focus,
   &.active {
-    background: lighten($color: $text-color, $amount: 10) !important;
+    background: lighten($color: $text-color-alt, $amount: 10) !important;
     box-shadow: none !important;
   }
 }
@@ -58,6 +58,8 @@
 
   &:active,
   &:hover {
-    color: $text-color;
+    color: $text-color-alt;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
   }
 }
