@@ -22,9 +22,9 @@
   <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }} " type="image/x-icon">
   <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }} " type="image/x-icon">
 
-  <!-- google analytics -->
-  {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
+  <!-- analytics -->
+  {% if site.data.settings.plausible-analytics %}
+    {% include analytics.html %}
   {% endif %}
 
 </head>

@@ -18,14 +18,9 @@ menu:
 #  - { name: Contact, link: "/contact" }
 
 #-------------------------------
-# Google Analytics Section
+# Analytics Section
 
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: UA-106624760-1
+plausible-analytics: neurogears.org
 
 #-------------------------------
 # Comment Section (Disqus)
